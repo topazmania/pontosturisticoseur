@@ -1,0 +1,39 @@
+img {
+    height: 200px;
+    margin-bottom: 10vh;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 25%;
+    margin: auto;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    background-color: black;
+    margin: auto;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  body {
+    background-color: black;
+  }
